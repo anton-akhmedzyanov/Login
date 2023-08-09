@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A02C7292A840AAD00A7FF21 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02C7282A840AAD00A7FF21 /* User.swift */; };
+		3A0C13862A82BD3500DB6EA8 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C13852A82BD3500DB6EA8 /* PersonalViewController.swift */; };
+		3A0C13882A82BD5500DB6EA8 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C13872A82BD5500DB6EA8 /* PhotoViewController.swift */; };
 		3A941BCA2A7E24C800ED9823 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A941BC92A7E24C800ED9823 /* AppDelegate.swift */; };
 		3A941BCC2A7E24C800ED9823 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A941BCB2A7E24C800ED9823 /* SceneDelegate.swift */; };
 		3A941BCE2A7E24C800ED9823 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A941BCD2A7E24C800ED9823 /* LoginViewController.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A02C7282A840AAD00A7FF21 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3A0C13852A82BD3500DB6EA8 /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		3A0C13872A82BD5500DB6EA8 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		3A941BC62A7E24C800ED9823 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A941BC92A7E24C800ED9823 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A941BCB2A7E24C800ED9823 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +47,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A02C7262A840A6600A7FF21 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3A941BCF2A7E24C800ED9823 /* Main.storyboard */,
+				3A941BD72A7E24CA00ED9823 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3A02C7272A840A8600A7FF21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A02C7282A840AAD00A7FF21 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A0C13892A82BD6400DB6EA8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A941BCD2A7E24C800ED9823 /* LoginViewController.swift */,
+				3A941BE02A7E2A2F00ED9823 /* WelcomeViewController.swift */,
+				3A0C13852A82BD3500DB6EA8 /* PersonalViewController.swift */,
+				3A0C13872A82BD5500DB6EA8 /* PhotoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		3A941BBD2A7E24C800ED9823 = {
 			isa = PBXGroup;
 			children = (
@@ -62,11 +96,10 @@
 			children = (
 				3A941BC92A7E24C800ED9823 /* AppDelegate.swift */,
 				3A941BCB2A7E24C800ED9823 /* SceneDelegate.swift */,
-				3A941BCD2A7E24C800ED9823 /* LoginViewController.swift */,
-				3A941BE02A7E2A2F00ED9823 /* WelcomeViewController.swift */,
-				3A941BCF2A7E24C800ED9823 /* Main.storyboard */,
+				3A02C7272A840A8600A7FF21 /* Model */,
+				3A0C13892A82BD6400DB6EA8 /* Controllers */,
 				3A941BD52A7E24CA00ED9823 /* Assets.xcassets */,
-				3A941BD72A7E24CA00ED9823 /* LaunchScreen.storyboard */,
+				3A02C7262A840A6600A7FF21 /* Storyboards */,
 				3A941BDA2A7E24CA00ED9823 /* Info.plist */,
 				3A941BD22A7E24C800ED9823 /* Login.xcdatamodeld */,
 			);
@@ -148,6 +181,9 @@
 				3A941BE12A7E2A2F00ED9823 /* WelcomeViewController.swift in Sources */,
 				3A941BCA2A7E24C800ED9823 /* AppDelegate.swift in Sources */,
 				3A941BCC2A7E24C800ED9823 /* SceneDelegate.swift in Sources */,
+				3A02C7292A840AAD00A7FF21 /* User.swift in Sources */,
+				3A0C13882A82BD5500DB6EA8 /* PhotoViewController.swift in Sources */,
+				3A0C13862A82BD3500DB6EA8 /* PersonalViewController.swift in Sources */,
 				3A941BD42A7E24C800ED9823 /* Login.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
